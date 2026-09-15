@@ -13,8 +13,11 @@ WORKDIR /app
 
 COPY package.json package-lock.json ./
 
+# Skip lifecycle scripts here: postinstall copies the PDF worker and needs
+# scripts/ + public/, which are only available after the full source COPY.
+# `npm run build` runs copy:pdf-worker before next build.
 RUN --mount=type=cache,target=/root/.npm \
-  npm ci --no-audit --no-fund
+  npm ci --no-audit --no-fund --ignore-scripts
 
 # ============================================
 # Stage 2: Build

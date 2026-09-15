@@ -1,6 +1,7 @@
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import type { ReactNode } from "react";
 import { routing } from "@/i18n/routing";
 import { themeBootScript } from "@/lib/theme";
@@ -25,14 +26,12 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <head>
-        <script
-          // Blocking boot script in the document head (SSR). Avoid next/script
-          // beforeInteractive here — that requires a root layout <html>/<head>.
+      <body>
+        <Script
+          id="theme-boot"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: themeBootScript }}
         />
-      </head>
-      <body>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

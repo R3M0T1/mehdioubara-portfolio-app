@@ -392,5 +392,12 @@
     "dialogTitle": "CV — {lang}",
     "dialogDescription": "Zoomez et tournez les pages dans la visionneuse. Le téléchargement reste à un clic.",
     "loading": "Ouverture du CV…"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page introuvable",
+    "description": "Cette page n’existe pas. Retournez à l’accueil pour explorer le portfolio, ou allez directement au contact.",
+    "home": "Retour à l’accueil",
+    "contact": "Contact"
   }
 }

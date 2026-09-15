@@ -392,5 +392,12 @@
     "dialogTitle": "CV — {lang}",
     "dialogDescription": "Zoom en blader in de viewer. Download blijft één klik verwijderd.",
     "loading": "CV openen…"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Pagina niet gevonden",
+    "description": "Deze pagina bestaat niet. Ga terug naar home om het portfolio te bekijken, of spring naar contact.",
+    "home": "Terug naar home",
+    "contact": "Contact"
   }
 }

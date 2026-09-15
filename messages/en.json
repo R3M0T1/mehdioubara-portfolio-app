@@ -395,5 +395,12 @@
     "dialogTitle": "CV — {lang}",
     "dialogDescription": "Zoom and flip pages inside the viewer. Download stays one click away.",
     "loading": "Opening the CV…"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page not found",
+    "description": "This page does not exist. Head home to explore the portfolio, or jump straight to contact.",
+    "home": "Back home",
+    "contact": "Contact"
   }
 }

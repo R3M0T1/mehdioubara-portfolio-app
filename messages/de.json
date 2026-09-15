@@ -392,5 +392,12 @@
     "dialogTitle": "Lebenslauf — {lang}",
     "dialogDescription": "Zoomen und blättern im Viewer. Download bleibt einen Klick entfernt.",
     "loading": "Lebenslauf wird geöffnet…"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Seite nicht gefunden",
+    "description": "Diese Seite existiert nicht. Zurück zur Startseite, um das Portfolio zu erkunden — oder direkt zum Kontakt.",
+    "home": "Zur Startseite",
+    "contact": "Kontakt"
   }
 }

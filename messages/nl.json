@@ -1,7 +1,23 @@
 {
   "meta": {
-    "title": "Mehdi Oubara — Software- & Netwerkengineer",
-    "description": "Back-end-, Web3-, full-stack- en DevOps-engineer beschikbaar fulltime, parttime, freelance of per project — lokaal of remote."
+    "title": "Mehdi Oubara — Software- & Netwerkengineer | Back-End, Web3, DevOps",
+    "description": "Huurt Mehdi Oubara in, software- & netwerkengineer in Tanger — back-end, Web3, full stack en DevOps. Fulltime, freelance of project, lokaal of remote.",
+    "keywords": [
+      "Mehdi Oubara",
+      "software engineer",
+      "netwerkengineer",
+      "back-end",
+      "Web3",
+      "full stack",
+      "DevOps",
+      "Tanger",
+      "Marokko",
+      "remote",
+      "freelance"
+    ],
+    "ogHeadline": "Systemen die live gaan en blijven draaien.",
+    "ogSubhead": "Back-end · Web3 · Full stack · DevOps — beschikbaar.",
+    "ogImageAlt": "Portfolio van Mehdi Oubara — Software- & Netwerkengineer"
   },
   "nav": {
     "about": "Over mij",

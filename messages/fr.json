@@ -1,7 +1,23 @@
 {
   "meta": {
-    "title": "Mehdi Oubara — Ingénieur Logiciel & Réseaux",
-    "description": "Ingénieur back-end, Web3, full-stack et DevOps disponible en CDI, temps partiel, freelance ou mission — local ou remote."
+    "title": "Mehdi Oubara — Ingénieur Logiciel & Réseaux | Back-End, Web3, DevOps",
+    "description": "Recrutez Mehdi Oubara, ingénieur logiciel & réseaux basé à Tanger — back-end, Web3, full stack et DevOps. Temps plein, freelance ou mission, local ou remote.",
+    "keywords": [
+      "Mehdi Oubara",
+      "ingénieur logiciel",
+      "ingénieur réseaux",
+      "développeur back-end",
+      "Web3",
+      "full stack",
+      "DevOps",
+      "Tanger",
+      "Maroc",
+      "remote",
+      "freelance"
+    ],
+    "ogHeadline": "Des systèmes qui partent en prod et tiennent.",
+    "ogSubhead": "Back-end · Web3 · Full stack · DevOps — disponible.",
+    "ogImageAlt": "Portfolio de Mehdi Oubara — Ingénieur Logiciel & Réseaux"
   },
   "nav": {
     "about": "À propos",

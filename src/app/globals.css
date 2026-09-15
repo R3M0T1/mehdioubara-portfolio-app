@@ -20,6 +20,16 @@ body {
   padding-bottom: calc(var(--s8) + env(safe-area-inset-bottom, 0px));
 }
 
+.portfolio-role-filter {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.portfolio-role-filter .pouf-seg {
+  width: 100%;
+}
+
 .portfolio-header {
   position: sticky;
   top: 12px;

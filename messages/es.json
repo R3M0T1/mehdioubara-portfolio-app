@@ -1,7 +1,23 @@
 {
   "meta": {
-    "title": "Mehdi Oubara — Ingeniero de Software y Redes",
-    "description": "Ingeniero back-end, Web3, full-stack y DevOps disponible a tiempo completo, parcial, freelance o por proyecto — local o remoto."
+    "title": "Mehdi Oubara — Ingeniero de Software y Redes | Back-End, Web3, DevOps",
+    "description": "Contrata a Mehdi Oubara, ingeniero de software y redes en Tánger — back-end, Web3, full stack y DevOps. Tiempo completo, freelance o proyecto, local o remoto.",
+    "keywords": [
+      "Mehdi Oubara",
+      "ingeniero de software",
+      "ingeniero de redes",
+      "back-end",
+      "Web3",
+      "full stack",
+      "DevOps",
+      "Tánger",
+      "Marruecos",
+      "remoto",
+      "freelance"
+    ],
+    "ogHeadline": "Sistemas que se lanzan y se mantienen.",
+    "ogSubhead": "Back-end · Web3 · Full stack · DevOps — disponible.",
+    "ogImageAlt": "Portfolio de Mehdi Oubara — Ingeniero de Software y Redes"
   },
   "nav": {
     "about": "Sobre mí",

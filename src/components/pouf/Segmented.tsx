@@ -37,7 +37,7 @@ interface SegmentedProps<T extends string> {
  */
 export function Segmented<T extends string>({ value, onChange, options, label, tone = 'blue' }: SegmentedProps<T>) {
   return (
-    <div className="pouf-seg inline-flex gap-(--s2)" role="group" aria-label={label}>
+    <div className="pouf-seg flex flex-wrap gap-(--s2) max-w-full min-w-0" role="group" aria-label={label}>
       {options.map((o) => {
         const on = o.value === value
         return (
@@ -46,7 +46,7 @@ export function Segmented<T extends string>({ value, onChange, options, label, t
             type="button"
             className={clsx(buttonClasses({ size: 'sm', tone }), /* Pressed IN, not recoloured: depth is the system's word for engaged (SC
              * 1.4.1 — tone alone vanishes in greyscale). aria-pressed carries it. */
-            'aria-pressed:[transform:translateY(2px)] aria-pressed:cushion-control-active')}
+            'aria-pressed:[transform:translateY(2px)] aria-pressed:cushion-control-active max-w-full')}
             aria-pressed={on}
             onClick={() => onChange(o.value)}
           >

@@ -155,13 +155,15 @@ export function PortfolioHome() {
         <Card>
           <Stack gap={4}>
             <Eyebrow>{t("roles.label")}</Eyebrow>
-            <Segmented
-              label={t("roles.label")}
-              value={focus}
-              onChange={setFocus}
-              options={roleOptions}
-              tone={roleTones[focus]}
-            />
+            <div className="portfolio-role-filter">
+              <Segmented
+                label={t("roles.label")}
+                value={focus}
+                onChange={setFocus}
+                options={roleOptions}
+                tone={roleTones[focus]}
+              />
+            </div>
           </Stack>
         </Card>
 

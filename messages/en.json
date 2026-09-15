@@ -1,7 +1,26 @@
 {
   "meta": {
-    "title": "Mehdi Oubara — Software & Network Engineer",
-    "description": "Back-end, Web3, full-stack and DevOps engineer available for full-time, part-time, freelance and project missions — local or remote."
+    "title": "Mehdi Oubara — Software & Network Engineer | Back-End, Web3, DevOps",
+    "description": "Hire Mehdi Oubara, a Tangier-based software & network engineer for back-end, Web3, full-stack and DevOps — full-time, freelance or project missions, local or remote.",
+    "keywords": [
+      "Mehdi Oubara",
+      "software engineer",
+      "network engineer",
+      "back-end developer",
+      "Web3 engineer",
+      "full-stack developer",
+      "DevOps",
+      "Tangier",
+      "Morocco",
+      "remote",
+      "freelance",
+      "Next.js",
+      "Python",
+      "TypeScript"
+    ],
+    "ogHeadline": "Build systems that ship and stay up.",
+    "ogSubhead": "Back-end · Web3 · Full stack · DevOps — available for hire.",
+    "ogImageAlt": "Mehdi Oubara — Software & Network Engineer portfolio"
   },
   "nav": {
     "about": "About",

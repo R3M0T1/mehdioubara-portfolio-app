@@ -105,7 +105,7 @@ export function FocusMultiSelect({
 
       <Field label={customLabel} error={error}>
         {(id, describedBy) => (
-          <Row gap={2} wrap={false} align="center">
+          <div className="portfolio-focus-custom">
             <Input
               id={id}
               describedBy={describedBy}
@@ -128,7 +128,7 @@ export function FocusMultiSelect({
             >
               <IconPlus size={18} stroke={2.4} />
             </button>
-          </Row>
+          </div>
         )}
       </Field>
     </Stack>

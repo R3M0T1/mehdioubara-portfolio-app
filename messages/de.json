@@ -13,7 +13,9 @@
     "language": "Sprache",
     "themeToLight": "Zum hellen Modus wechseln",
     "themeToDark": "Zum dunklen Modus wechseln",
-    "cv": "Lebenslauf"
+    "cv": "Lebenslauf",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen"
   },
   "hero": {
     "eyebrow": "Verfügbar",

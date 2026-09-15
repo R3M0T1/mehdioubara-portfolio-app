@@ -21,6 +21,7 @@ import {
   IconHistory,
   IconInfoCircle,
   IconLayoutGrid,
+  IconMenu2,
   IconMinus,
   IconPencil,
   IconPhoto,
@@ -100,6 +101,7 @@ const ICONS = {
   settings: IconSettings,
   database: IconDatabase,
   menu: IconLayoutGrid,
+  bars: IconMenu2,
   // state
   up: IconArrowUp,
   down: IconArrowDown,

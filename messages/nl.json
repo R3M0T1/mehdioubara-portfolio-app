@@ -13,7 +13,9 @@
     "language": "Taal",
     "themeToLight": "Naar lichte modus",
     "themeToDark": "Naar donkere modus",
-    "cv": "CV"
+    "cv": "CV",
+    "menu": "Menu",
+    "openMenu": "Menu openen"
   },
   "hero": {
     "eyebrow": "Beschikbaar",

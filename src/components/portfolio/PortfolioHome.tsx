@@ -1,10 +1,9 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/pouf/Button";
 import { Dialog, Select } from "@/components/pouf/controls";
-import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { CvViewer } from "@/components/portfolio/CvViewer";
 import { EducationSection } from "@/components/portfolio/EducationSection";
 import type {
@@ -20,12 +19,12 @@ import {
   type ProjectItem,
 } from "@/components/portfolio/ProjectsSection";
 import { FocusMultiSelect } from "@/components/portfolio/FocusMultiSelect";
+import { PortfolioNav } from "@/components/portfolio/PortfolioNav";
 import { Footer } from "@/components/pouf/footer";
 import { Field, Input, Textarea } from "@/components/pouf/Input";
 import { Grid, Row, Stack } from "@/components/pouf/layout";
 import { Badge, Blob } from "@/components/pouf/media";
 import { Avatar } from "@/components/pouf/avatar";
-import { Navbar } from "@/components/pouf/navbar";
 import { Metric, Stat } from "@/components/pouf/readout";
 import { Segmented } from "@/components/pouf/Segmented";
 import { Card } from "@/components/pouf/surface";
@@ -37,17 +36,13 @@ import {
   skillGroups,
   type RoleFocus,
 } from "@/content/profile";
-import { usePathname, useRouter } from "@/i18n/navigation";
-import { locales, type Locale } from "@/i18n/routing";
+import { type Locale } from "@/i18n/routing";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export function PortfolioHome() {
   const t = useTranslations();
   const locale = useLocale() as Locale;
-  const router = useRouter();
-  const pathname = usePathname();
-  const [isPending, startTransition] = useTransition();
   const [focus, setFocus] = useState<RoleFocus>("all");
   const [compactHeader, setCompactHeader] = useState(false);
 
@@ -108,69 +103,11 @@ export function PortfolioHome() {
 
   return (
     <div className="portfolio-shell">
-      <header
-        className={
-          compactHeader
-            ? "portfolio-header portfolio-header--compact"
-            : "portfolio-header"
-        }
-      >
-        <Navbar
-          brand={
-            <button
-              type="button"
-              className="portfolio-brand"
-              onClick={() => scrollToId("top")}
-              aria-label="Mehdi Oubara — home"
-            >
-              <span className="portfolio-brand__mono" aria-hidden>
-                MO
-              </span>
-              <span className="portfolio-brand__text">
-                <span className="portfolio-brand__name">Mehdi Oubara</span>
-                <span className="portfolio-brand__hint">{t("hero.role")}</span>
-              </span>
-            </button>
-          }
-          links={[
-            { href: "#about", label: t("nav.about") },
-            { href: "#experience", label: t("nav.experience") },
-            { href: "#projects", label: t("nav.projects") },
-            { href: "#skills", label: t("nav.skills") },
-            { href: "#cv", label: t("nav.cv") },
-            { href: "#contact", label: t("nav.contact") },
-          ]}
-          actions={
-            <Row gap={2} wrap={false} align="center">
-              <div className="portfolio-lang">
-                <Select
-                  label={t("nav.language")}
-                  value={locale}
-                  onChange={(next) => {
-                    startTransition(() => {
-                      router.replace(pathname, { locale: next as Locale });
-                    });
-                  }}
-                  options={locales.map((code) => ({
-                    value: code,
-                    label: code.toUpperCase(),
-                  }))}
-                  disabled={isPending}
-                />
-              </div>
-              <ThemeToggle
-                labelToLight={t("nav.themeToLight")}
-                labelToDark={t("nav.themeToDark")}
-              />
-              <span className="portfolio-hire">
-                <Button tone="mint" size="sm" onClick={() => openContactDialog()}>
-                  {t("nav.hire")}
-                </Button>
-              </span>
-            </Row>
-          }
-        />
-      </header>
+      <PortfolioNav
+        compact={compactHeader}
+        onHire={() => openContactDialog()}
+        onNavigate={scrollToId}
+      />
 
       <Stack gap={6}>
         <section className="portfolio-hero portfolio-section" id="top">
@@ -528,6 +465,9 @@ function ContactForm() {
               </Stack>
             </Row>
 
+            <Button tone="mint" onClick={() => setOpen(true)}>
+              {t("openForm")}
+            </Button>
             <Dialog
               size="lg"
               open={open}
@@ -540,7 +480,6 @@ function ContactForm() {
               }}
               title={t("dialogTitle")}
               description={t("dialogDescription")}
-              trigger={<Button tone="mint">{t("openForm")}</Button>}
             >
               <div className="portfolio-contact-dialog">
                 {submitted ? (

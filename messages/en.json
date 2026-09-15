@@ -13,7 +13,9 @@
     "language": "Language",
     "themeToLight": "Switch to light mode",
     "themeToDark": "Switch to dark mode",
-    "cv": "CV"
+    "cv": "CV",
+    "menu": "Menu",
+    "openMenu": "Open menu"
   },
   "hero": {
     "eyebrow": "Available for hire",

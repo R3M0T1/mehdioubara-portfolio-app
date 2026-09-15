@@ -140,8 +140,8 @@ export function Tooltip({ tip, children }: { tip: string; children: ReactNode })
 }
 
 interface DialogProps {
-  /** The element that opens it. */
-  trigger: ReactNode
+  /** The element that opens it. Omit when opening fully via `open` / `onOpenChange`. */
+  trigger?: ReactNode
   title: string
   description?: string
   children: ReactNode
@@ -163,7 +163,7 @@ interface DialogProps {
 export function Dialog({ trigger, title, description, children, open, onOpenChange, size = 'md' }: DialogProps) {
   return (
     <RDialog.Root open={open} onOpenChange={onOpenChange}>
-      <RDialog.Trigger asChild>{trigger}</RDialog.Trigger>
+      {trigger ? <RDialog.Trigger asChild>{trigger}</RDialog.Trigger> : null}
       <RDialog.Portal>
         {/* Enter AND exit are CSS animations keyed off Radix's data-state. Radix's
             own Presence keeps the node mounted until the [data-state='closed']

@@ -13,7 +13,9 @@
     "language": "Langue",
     "themeToLight": "Passer en mode clair",
     "themeToDark": "Passer en mode sombre",
-    "cv": "CV"
+    "cv": "CV",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu"
   },
   "hero": {
     "eyebrow": "Disponible",

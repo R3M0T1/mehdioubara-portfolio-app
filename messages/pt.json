@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Mehdi Oubara — Engenheiro de Software e Redes",
+    "description": "Engenheiro back-end, Web3, full-stack e DevOps disponível full-time, part-time, freelance ou por projeto — local ou remoto."
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Skills",
+    "contact": "Contacto",
+    "hire": "Contratar",
+    "language": "Idioma",
+    "themeToLight": "Mudar para modo claro",
+    "themeToDark": "Mudar para modo escuro",
+    "cv": "CV"
+  },
+  "hero": {
+    "eyebrow": "Disponível",
+    "name": "Mehdi Oubara",
+    "role": "Engenheiro de Software e Redes",
+    "tagline": "Back-end, Web3, full-stack e DevOps — full-time, part-time, freelance ou missão. Local ou remoto.",
+    "ctaPrimary": "Contacto / Contratar",
+    "ctaSecondary": "Ver projetos",
+    "location": "Tânger, Marrocos · Aberto a remoto",
+    "email": "oubara.mehdi@gmail.com",
+    "phone": "+212 657-162581"
+  },
+  "roles": {
+    "label": "Filtrar por foco",
+    "all": "Tudo",
+    "backend": "Back-End",
+    "web3": "Web3",
+    "fullstack": "Full stack",
+    "devops": "DevOps"
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "Sistemas que vão para produção e aguentam.",
+    "body": "Engenheiro back-end com experiência em APIs REST, automação e infraestrutura de rede — de blockchain (Web3) a plataformas SaaS."
+  },
+  "experience": {
+    "eyebrow": "Experiência",
+    "title": "Onde gerei impacto",
+    "subtitle": "Timeline compacta — expande qualquer role para o detalhe. Os filtros de foco acima reduzem a lista.",
+    "impactLabel": "Impactos-chave",
+    "detailsOpen": "Toca para ver o detalhe",
+    "empty": "Nenhuma role corresponde a este foco. Volta o filtro para Todos.",
+    "items": [
+      {
+        "id": "flex",
+        "company": "The Flex",
+        "role": "Software Engineer — Base360.ai",
+        "period": "Ago–Set 2026",
+        "location": "Remote",
+        "type": "Missão",
+        "summary": "Automatização de sync de reservas e messaging no Base360.ai, shipped na AWS existente.",
+        "impact": [
+          "Automatização booking",
+          "APIs FastAPI",
+          "Stripe · Twilio · OpenAI"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Módulo de automatização para sync de reservas e comunicação com hóspedes no Base360.ai.",
+          "Back-end FastAPI com APIs REST para pricing e booking.",
+          "Integração Stripe, Twilio e OpenAI para automatizar workflows manuais.",
+          "Deploy com Docker e GitHub Actions na infra AWS existente."
+        ]
+      },
+      {
+        "id": "taliware",
+        "company": "Taliware",
+        "role": "Engenheiro Web3 & Back-End",
+        "period": "Abr 2024 – Abr 2026",
+        "location": "San Diego, EUA",
+        "type": "Full-time",
+        "summary": "APIs Web3, arquitetura de dados Cordoba L2 e API de fotos realmente usada por partners.",
+        "impact": [
+          "+35% velocidade partners",
+          "+50% uso API",
+          "Cordoba L2"
+        ],
+        "roles": [
+          "backend",
+          "web3"
+        ],
+        "bullets": [
+          "API Web3 e framework de subscrições para blockchain e pagamentos com tokens.",
+          "Arquitetura de base de dados Cordoba L2 para queries em tempo real.",
+          "API CordobaPhoto otimizada — 4 fontes unificadas, +35% velocidade partners, +50% uso API."
+        ]
+      },
+      {
+        "id": "cmh",
+        "company": "Cloud Marketing Hub",
+        "role": "Software Developer",
+        "period": "Nov 2022 – Abr 2024",
+        "location": "Tânger, Marrocos",
+        "type": "Full-time",
+        "summary": "Automatização e APIs para equipas de marketing de 20–40 pessoas, com ganhos mensuráveis.",
+        "impact": [
+          "+60% throughput",
+          "+20% produtividade",
+          "Equipas 20–40"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Automatização em Python, Java e JavaScript em equipas de 20–40 pessoas.",
+          "Interfaces front e APIs REST seguras para automatização de marketing.",
+          "Throughput de dados +60% via otimização de API e SQL.",
+          "Reporting automatizado: produtividade de equipa ~+20%."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "title": "Trabalho selecionado",
+    "subtitle": "Produtos de clientes online hoje — abre um site ou expande um card para o stack.",
+    "open": "Stack e detalhes",
+    "close": "Ocultar",
+    "stack": "Stack",
+    "visit": "Ver live",
+    "visitPortal": "Abrir portal",
+    "gatedNote": "Portal login",
+    "empty": "Nenhum projeto corresponde a este foco. Volta o filtro para Todos.",
+    "items": [
+      {
+        "id": "medsupport",
+        "title": "MedSupport Travel",
+        "client": "Produto cliente",
+        "summary": "Plataforma de assistência médica em viagem — site e portal ops em Next.js, Postgres para cases, Redis como cache, coordenação de providers em 50+ países.",
+        "highlight": "App Next.js + PostgreSQL + cache Redis em produção.",
+        "image": "/projects/medsupport.jpg",
+        "url": "https://medsupporttravel.com",
+        "stack": [
+          "Next.js",
+          "PostgreSQL",
+          "Redis",
+          "TypeScript"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "driveme",
+        "title": "DriveMe",
+        "client": "Produto cliente",
+        "summary": "Plataforma de chauffeur privado na Bélgica — site cliente, dashboard admin Next.js, apps de motoristas React Native (iOS e Android), API FastAPI em MongoDB.",
+        "highlight": "Superfície completa: web + admin + mobile drivers + API FastAPI.",
+        "image": "/projects/driveme.jpg",
+        "url": "https://driveme.be",
+        "stack": [
+          "Next.js",
+          "React Native",
+          "FastAPI",
+          "MongoDB"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "mates",
+        "title": "Mate’s Booking",
+        "client": "Produto cliente",
+        "summary": "Portal de reservas e gestão de guests para Mate’s Restaurant — app Next.js com MongoDB para bookings e auth do staff.",
+        "highlight": "Portal Next.js + MongoDB em produção para ops do restaurante.",
+        "image": "/projects/mates.jpg",
+        "url": "https://matesbooking.com",
+        "gated": true,
+        "stack": [
+          "Next.js",
+          "MongoDB",
+          "Auth",
+          "Reservas"
+        ],
+        "roles": [
+          "fullstack",
+          "backend"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Ferramentas com que entrego",
+    "languages": "Linguagens",
+    "frameworks": "Frameworks",
+    "databases": "Bases de dados",
+    "tools": "Ferramentas e cloud",
+    "spoken": "Idiomas falados",
+    "spokenItems": [
+      "Inglês — B2",
+      "Francês — B1",
+      "Árabe — Nativo"
+    ]
+  },
+  "education": {
+    "eyebrow": "Formação e certs",
+    "title": "Fundações",
+    "subtitle": "Escola de engenharia + percurso técnico, reforçado com labs Coursera e Azure alinhados com a forma como entrego — UI responsive, Unix, design patterns e redes cloud.",
+    "schoolsTitle": "Escolas",
+    "certsTitle": "Certificações",
+    "focusLabel": "Áreas de foco",
+    "skillsLabel": "Skills praticadas",
+    "stats": {
+      "schools": "Escolas",
+      "certs": "Certificações",
+      "years": "Desde"
+    },
+    "items": [
+      {
+        "id": "emsi",
+        "school": "EMSI Tânger",
+        "degree": "Engenharia · Software e Redes (IIR)",
+        "period": "2023–2026",
+        "location": "Tânger, Marrocos",
+        "status": "Graduação em junho 2026",
+        "summary": "Escola privada de engenharia reconhecida pelo Estado (fundada em 1986). A via Ingénierie Informatique & Réseaux cobre full-stack, cloud e sistemas, redes TCP/IP, cibersegurança, opções de IA/dados e aprendizagem por projetos no campus de Tânger.",
+        "focus": [
+          "Full-stack e DevOps",
+          "Cloud e sistemas Unix",
+          "Redes e segurança",
+          "Gestão de projeto"
+        ]
+      },
+      {
+        "id": "ista",
+        "school": "ISTA Taza · OFPPT",
+        "degree": "Técnico especializado em desenvolvimento informático",
+        "period": "2020–2022",
+        "location": "Taza, Marrocos",
+        "status": "Concluído",
+        "summary": "Programa técnico OFPPT de dois anos (~2040 h) focado em desenho de aplicações, modelação OOP, bases de dados, cliente/servidor e web dinâmica, com estágio em empresa.",
+        "focus": [
+          "OOP e modelação",
+          "Bases de dados",
+          "Apps web",
+          "Cliente / servidor"
+        ]
+      }
+    ],
+    "certs": [
+      {
+        "id": "responsive",
+        "title": "Advanced Styling with Responsive Design",
+        "issuer": "University of Michigan",
+        "platform": "Coursera",
+        "summary": "Layouts mobile-first, CSS fluido, media queries e frameworks para interfaces sólidas em telemóvel, tablet e desktop.",
+        "skills": [
+          "CSS responsive",
+          "Media queries",
+          "Bootstrap"
+        ]
+      },
+      {
+        "id": "unix",
+        "title": "The Unix Workbench",
+        "issuer": "Johns Hopkins University",
+        "platform": "Coursera",
+        "summary": "Fluência na linha de comandos, scripting Bash e mentalidade de ferramentas Unix no dia a dia de backend e DevOps.",
+        "skills": [
+          "Bash",
+          "CLI",
+          "Ferramentas Unix"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Software Design and Project Management",
+        "issuer": "HKUST",
+        "platform": "Coursera",
+        "summary": "Planeamento SDLC, padrões de arquitetura e design, estimativa e scheduling para equipas de engenharia.",
+        "skills": [
+          "SDLC",
+          "Design patterns",
+          "Planeamento"
+        ]
+      },
+      {
+        "id": "azure",
+        "title": "Virtual Networks in Azure",
+        "issuer": "Whizlabs",
+        "platform": "Lab Azure",
+        "summary": "Redes virtuais Azure na prática — VNets, padrões de conectividade e fundamentos de rede cloud.",
+        "skills": [
+          "Azure VNet",
+          "Redes cloud",
+          "Conectividade híbrida"
+        ]
+      }
+    ],
+    "tabEmsi": "EMSI",
+    "tabIsta": "ISTA",
+    "tabCerts": "Certs"
+  },
+  "contact": {
+    "eyebrow": "Contratar",
+    "title": "Fala-me da missão.",
+    "body": "Full-time, part-time, freelance ou projeto — local ou remoto.",
+    "badge": "Resposta habitual em 1 dia",
+    "preferEmail": "Preferir email?",
+    "preferLinkedIn": "Preferir LinkedIn?",
+    "linkedin": "linkedin.com/in/mehdi-oubara",
+    "name": "O teu nome",
+    "email": "Email profissional",
+    "engagement": "Tipo de colaboração",
+    "engagementOptions": {
+      "fulltime": "Full-time",
+      "parttime": "Part-time",
+      "freelance": "Freelance",
+      "mission": "Missão de projeto"
+    },
+    "focus": "Foco do role",
+    "message": "Mensagem",
+    "messageHint": "Papel, stack e prazos.",
+    "submit": "Enviar",
+    "sending": "A enviar…",
+    "successTitle": "Mensagem enviada",
+    "successBody": "Obrigado — recebi a tua nota no Telegram e respondo em breve.",
+    "errors": {
+      "name": "Adiciona o teu nome.",
+      "email": "Introduz um email de trabalho válido.",
+      "focus": "Escolhe pelo menos um foco.",
+      "message": "Escreve pelo menos 20 caracteres sobre a oportunidade.",
+      "send": "Não foi possível enviar agora. Tenta de novo ou envia-me um email."
+    },
+    "openForm": "Escrever uma mensagem",
+    "formCardTitle": "Preferes um brief curto?",
+    "formCardHint": "Abre o formulário — engagement, focos e a tua nota.",
+    "dialogTitle": "Enviar uma mensagem",
+    "dialogDescription": "Partilha o role, stack e timing. Chega-me no Telegram de imediato.",
+    "emailCta": "Enviar email",
+    "linkedinCta": "Abrir LinkedIn",
+    "focusHint": "Escolhe um ou vários — ou escreve o teu.",
+    "focusCustom": "Foco personalizado",
+    "focusCustomPlaceholder": "ex. Mobile, IA, Segurança…",
+    "focusAdd": "Adicionar foco"
+  },
+  "footer": {
+    "tagline": "Back-end · Web3 · Full stack · DevOps",
+    "note": "Feito com Next.js e 1st-Pouf."
+  },
+  "empty": {
+    "filter": "Nada corresponde — experimenta outro filtro."
+  },
+  "cv": {
+    "eyebrow": "CV",
+    "title": "Curriculum Vitae",
+    "subtitle": "Abre o CV em inglês ou francês no visualizador, ou descarrega o PDF.",
+    "version": "Idioma do CV",
+    "english": "Inglês",
+    "french": "Francês",
+    "download": "Descarregar PDF",
+    "iframeTitle": "CV de Mehdi Oubara ({lang})",
+    "view": "Ver CV",
+    "cardTitle": "Pronto para partilhar com recrutadores",
+    "cardHint": "Escolhe um idioma e abre o visualizador.",
+    "dialogTitle": "CV — {lang}",
+    "dialogDescription": "Aproxima e muda de página no visualizador. O download fica a um clique.",
+    "loading": "A abrir o CV…"
+  }
+}

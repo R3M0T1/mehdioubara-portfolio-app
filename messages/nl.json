@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Mehdi Oubara — Software- & Netwerkengineer",
+    "description": "Back-end-, Web3-, full-stack- en DevOps-engineer beschikbaar fulltime, parttime, freelance of per project — lokaal of remote."
+  },
+  "nav": {
+    "about": "Over mij",
+    "experience": "Ervaring",
+    "projects": "Projecten",
+    "skills": "Skills",
+    "contact": "Contact",
+    "hire": "Hire me",
+    "language": "Taal",
+    "themeToLight": "Naar lichte modus",
+    "themeToDark": "Naar donkere modus",
+    "cv": "CV"
+  },
+  "hero": {
+    "eyebrow": "Beschikbaar",
+    "name": "Mehdi Oubara",
+    "role": "Software- & Netwerkengineer",
+    "tagline": "Back-end, Web3, full-stack en DevOps — fulltime, parttime, freelance of missie. Lokaal of remote.",
+    "ctaPrimary": "Contact / Hire me",
+    "ctaSecondary": "Bekijk projecten",
+    "location": "Tanger, Marokko · Remote-vriendelijk",
+    "email": "oubara.mehdi@gmail.com",
+    "phone": "+212 657-162581"
+  },
+  "roles": {
+    "label": "Filter op focus",
+    "all": "Alles",
+    "backend": "Back-End",
+    "web3": "Web3",
+    "fullstack": "Full stack",
+    "devops": "DevOps"
+  },
+  "about": {
+    "eyebrow": "Over mij",
+    "title": "Systemen bouwen die live gaan en stabiel blijven.",
+    "body": "Back-end engineer met ervaring in REST-API’s, automatisering en netwerkinfrastructuur — van blockchain (Web3) tot SaaS."
+  },
+  "experience": {
+    "eyebrow": "Ervaring",
+    "title": "Waar ik impact heb geleverd",
+    "subtitle": "Compacte tijdlijn — open een stop voor details. De focusfilters hierboven filteren deze lijst.",
+    "impactLabel": "Impact-highlights",
+    "detailsOpen": "Tik om details te openen",
+    "empty": "Geen rollen voor deze focus. Zet het filter terug op Alles.",
+    "items": [
+      {
+        "id": "flex",
+        "company": "The Flex",
+        "role": "Software Engineer — Base360.ai",
+        "period": "aug–sep 2026",
+        "location": "Remote",
+        "type": "Missie",
+        "summary": "Automatisering voor booking-sync en guest messaging op Base360.ai, live op bestaande AWS.",
+        "impact": [
+          "Booking-automatisering",
+          "FastAPI-API’s",
+          "Stripe · Twilio · OpenAI"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Automatiseringsmodule voor booking-sync en gastcommunicatie op Base360.ai.",
+          "FastAPI-backend met REST-API’s naar pricing- en bookingsystemen.",
+          "Integratie van Stripe, Twilio en OpenAI voor manuele workflows.",
+          "Deploy met Docker en GitHub Actions op bestaande AWS-infrastructuur."
+        ]
+      },
+      {
+        "id": "taliware",
+        "company": "Taliware",
+        "role": "Web3- & back-end engineer",
+        "period": "apr 2024 – apr 2026",
+        "location": "San Diego, VS",
+        "type": "Fulltime",
+        "summary": "Web3-API’s, Cordoba L2-data-architectuur en een foto-API die partners echt gebruikten.",
+        "impact": [
+          "+35% partner-snelheid",
+          "+50% API-gebruik",
+          "Cordoba L2"
+        ],
+        "roles": [
+          "backend",
+          "web3"
+        ],
+        "bullets": [
+          "Web3-API en abonnementenframework voor blockchain-integratie en tokenbetalingen.",
+          "Database-architectuur voor Cordoba L2 met real-time queries.",
+          "CordobaPhoto-API geoptimaliseerd — 4 bronnen samengevoegd, +35% partner-integratie, +50% API-gebruik."
+        ]
+      },
+      {
+        "id": "cmh",
+        "company": "Cloud Marketing Hub",
+        "role": "Software developer",
+        "period": "nov 2022 – apr 2024",
+        "location": "Tanger, Marokko",
+        "type": "Fulltime",
+        "summary": "Automatisering en API’s voor marketingteams van 20–40 personen, met meetbare winst.",
+        "impact": [
+          "+60% throughput",
+          "+20% productiviteit",
+          "Teams 20–40"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Automatisering in Python, Java en JavaScript in teams van 20–40 personen.",
+          "Frontends en veilige REST-API’s voor marketingautomatisering.",
+          "Datathroughput +60% via API- en SQL-optimalisatie.",
+          "Geautomatiseerde reporting: teamproductiviteit ~+20%."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projecten",
+    "title": "Geselecteerd werk",
+    "subtitle": "Live klantproducten online vandaag — open een site, of vouw een card open voor de stack.",
+    "open": "Stack & details",
+    "close": "Verbergen",
+    "stack": "Stack",
+    "visit": "Bekijk live",
+    "visitPortal": "Open portal",
+    "gatedNote": "Login-portal",
+    "empty": "Geen projecten voor deze focus. Zet het filter terug op Alles.",
+    "items": [
+      {
+        "id": "medsupport",
+        "title": "MedSupport Travel",
+        "client": "Klantproduct",
+        "summary": "Medische reisassistentie-platform — Next.js marketing site en ops-portal, Postgres voor case-data, Redis als cache, provider-coördinatie in 50+ landen.",
+        "highlight": "Next.js-app + PostgreSQL + Redis-cache in productie.",
+        "image": "/projects/medsupport.jpg",
+        "url": "https://medsupporttravel.com",
+        "stack": [
+          "Next.js",
+          "PostgreSQL",
+          "Redis",
+          "TypeScript"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "driveme",
+        "title": "DriveMe",
+        "client": "Klantproduct",
+        "summary": "Private chauffeur-platform voor België — klantwebsite, Next.js admin-dashboard, React Native driver-apps (iOS & Android) en FastAPI-backend op MongoDB.",
+        "highlight": "Volledig productvlak: web + admin + mobile drivers + FastAPI.",
+        "image": "/projects/driveme.jpg",
+        "url": "https://driveme.be",
+        "stack": [
+          "Next.js",
+          "React Native",
+          "FastAPI",
+          "MongoDB"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "mates",
+        "title": "Mate’s Booking",
+        "client": "Klantproduct",
+        "summary": "Reserverings- en guest-managementportal voor Mate’s Restaurant — Next.js-app met MongoDB voor bookings en staff-auth.",
+        "highlight": "Next.js + MongoDB productieportal voor restaurant-ops.",
+        "image": "/projects/mates.jpg",
+        "url": "https://matesbooking.com",
+        "gated": true,
+        "stack": [
+          "Next.js",
+          "MongoDB",
+          "Auth",
+          "Reserveringen"
+        ],
+        "roles": [
+          "fullstack",
+          "backend"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools waarmee ik oplever",
+    "languages": "Talen",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "tools": "Tools & cloud",
+    "spoken": "Gesproken talen",
+    "spokenItems": [
+      "Engels — B2",
+      "Frans — B1",
+      "Arabisch — Moedertaal"
+    ]
+  },
+  "education": {
+    "eyebrow": "Opleiding & certs",
+    "title": "Fundament",
+    "subtitle": "Ingenieurschool plus technicus-traject, aangevuld met Coursera- en Azure-labs die aansluiten bij hoe ik lever — responsive UI, Unix-tooling, design patterns en cloudnetwerken.",
+    "schoolsTitle": "Scholen",
+    "certsTitle": "Certificeringen",
+    "focusLabel": "Focusgebieden",
+    "skillsLabel": "Geoefende skills",
+    "stats": {
+      "schools": "Scholen",
+      "certs": "Certificaten",
+      "years": "Sinds"
+    },
+    "items": [
+      {
+        "id": "emsi",
+        "school": "EMSI Tanger",
+        "degree": "Ingenieursdiploma · Software & Netwerken (IIR)",
+        "period": "2023–2026",
+        "location": "Tanger, Marokko",
+        "status": "Afstudeer juni 2026",
+        "summary": "Door de staat erkende private ingenieurschool (opgericht in 1986). Het traject Ingénierie Informatique & Réseaux dekt full-stack, cloud & systemen, TCP/IP-netwerken, cybersecurity, AI/data-opties en projectmatig leren op de campus in Tanger.",
+        "focus": [
+          "Full-stack & DevOps",
+          "Cloud & Unix-systemen",
+          "Netwerken & security",
+          "Projectdelivery"
+        ]
+      },
+      {
+        "id": "ista",
+        "school": "ISTA Taza · OFPPT",
+        "degree": "Gespecialiseerd technicus softwareontwikkeling",
+        "period": "2020–2022",
+        "location": "Taza, Marokko",
+        "status": "Afgerond",
+        "summary": "Tweejarig OFPPT-technicusprogramma (~2040 u) gericht op applicatieontwerp, OOP-modellering, databases, client/server en dynamische webapps, afgesloten met een bedrijfsstage.",
+        "focus": [
+          "OOP & modellering",
+          "Databases",
+          "Webapps",
+          "Client / server"
+        ]
+      }
+    ],
+    "certs": [
+      {
+        "id": "responsive",
+        "title": "Advanced Styling with Responsive Design",
+        "issuer": "University of Michigan",
+        "platform": "Coursera",
+        "summary": "Mobile-first layouts, fluid CSS, media queries en frameworkpatronen voor stabiele UI’s op telefoon, tablet en desktop.",
+        "skills": [
+          "Responsive CSS",
+          "Media queries",
+          "Bootstrap"
+        ]
+      },
+      {
+        "id": "unix",
+        "title": "The Unix Workbench",
+        "issuer": "Johns Hopkins University",
+        "platform": "Coursera",
+        "summary": "Command-line fluency, Bash-scripting en de Unix-tooling-mentaliteit voor dagelijks backend- en DevOps-werk.",
+        "skills": [
+          "Bash",
+          "CLI",
+          "Unix-tools"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Software Design and Project Management",
+        "issuer": "HKUST",
+        "platform": "Coursera",
+        "summary": "SDLC-planning, architectuur- en design patterns, scheduling en kostenschatting voor engineeringteams.",
+        "skills": [
+          "SDLC",
+          "Design patterns",
+          "Projectplanning"
+        ]
+      },
+      {
+        "id": "azure",
+        "title": "Virtual Networks in Azure",
+        "issuer": "Whizlabs",
+        "platform": "Azure-lab",
+        "summary": "Hands-on Azure virtual networking — VNets, connectivity-patronen en cloudnetwerk-fundamentals.",
+        "skills": [
+          "Azure VNet",
+          "Cloudnetwerken",
+          "Hybride connectiviteit"
+        ]
+      }
+    ],
+    "tabEmsi": "EMSI",
+    "tabIsta": "ISTA",
+    "tabCerts": "Certs"
+  },
+  "contact": {
+    "eyebrow": "Hire me",
+    "title": "Vertel me over de missie.",
+    "body": "Fulltime, parttime, freelance of project — lokaal of remote.",
+    "badge": "Meestal antwoord binnen 1 dag",
+    "preferEmail": "Liever e-mail?",
+    "preferLinkedIn": "Liever LinkedIn?",
+    "linkedin": "linkedin.com/in/mehdi-oubara",
+    "name": "Jouw naam",
+    "email": "Werk-e-mail",
+    "engagement": "Samenwerkingstype",
+    "engagementOptions": {
+      "fulltime": "Fulltime",
+      "parttime": "Parttime",
+      "freelance": "Freelance",
+      "mission": "Projectmissie"
+    },
+    "focus": "Role-focus",
+    "message": "Bericht",
+    "messageHint": "Rol, stack en timing.",
+    "submit": "Versturen",
+    "sending": "Versturen…",
+    "successTitle": "Bericht verzonden",
+    "successBody": "Bedankt — ik heb je bericht op Telegram en reageer snel.",
+    "errors": {
+      "name": "Voeg je naam toe.",
+      "email": "Voer een geldig werk-e-mailadres in.",
+      "focus": "Kies minstens één focus.",
+      "message": "Schrijf minstens 20 tekens over de opportunity.",
+      "send": "Verzenden lukte niet. Probeer opnieuw of mail me."
+    },
+    "openForm": "Bericht schrijven",
+    "formCardTitle": "Liever een kort brief?",
+    "formCardHint": "Open het formulier — engagement, focussen en je notitie.",
+    "dialogTitle": "Bericht sturen",
+    "dialogDescription": "Deel role, stack en timing. Het komt direct binnen op Telegram.",
+    "emailCta": "E-mail sturen",
+    "linkedinCta": "LinkedIn openen",
+    "focusHint": "Kies één of meer — of typ je eigen optie.",
+    "focusCustom": "Eigen focus",
+    "focusCustomPlaceholder": "bijv. Mobile, AI, Security…",
+    "focusAdd": "Focus toevoegen"
+  },
+  "footer": {
+    "tagline": "Back-end · Web3 · Full stack · DevOps",
+    "note": "Gebouwd met Next.js en 1st-Pouf."
+  },
+  "empty": {
+    "filter": "Niets voor deze focus — probeer een andere filter."
+  },
+  "cv": {
+    "eyebrow": "CV",
+    "title": "Curriculum Vitae",
+    "subtitle": "Open het Engelse of Franse CV in de viewer, of download de PDF.",
+    "version": "CV-taal",
+    "english": "Engels",
+    "french": "Frans",
+    "download": "Download PDF",
+    "iframeTitle": "CV van Mehdi Oubara ({lang})",
+    "view": "CV bekijken",
+    "cardTitle": "Klaar om te delen met recruiters",
+    "cardHint": "Kies een taal en open de interactieve viewer.",
+    "dialogTitle": "CV — {lang}",
+    "dialogDescription": "Zoom en blader in de viewer. Download blijft één klik verwijderd.",
+    "loading": "CV openen…"
+  }
+}

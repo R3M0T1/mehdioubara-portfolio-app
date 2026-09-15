@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Mehdi Oubara — Software & Network Engineer",
+    "description": "Back-end, Web3, full-stack and DevOps engineer available for full-time, part-time, freelance and project missions — local or remote."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "hire": "Hire me",
+    "language": "Language",
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode",
+    "cv": "CV"
+  },
+  "hero": {
+    "eyebrow": "Available for hire",
+    "name": "Mehdi Oubara",
+    "role": "Software & Network Engineer",
+    "tagline": "Back-end, Web3, full-stack and DevOps — ready for full-time, part-time, freelance or project missions. Local or remote.",
+    "ctaPrimary": "Contact / Hire me",
+    "ctaSecondary": "See projects",
+    "location": "Tangier, Morocco · Remote-friendly",
+    "email": "oubara.mehdi@gmail.com",
+    "phone": "+212 657-162581"
+  },
+  "roles": {
+    "label": "Filter by focus",
+    "all": "All",
+    "backend": "Back-End",
+    "web3": "Web3",
+    "fullstack": "Full stack",
+    "devops": "DevOps"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Build systems that ship and stay up.",
+    "body": "Back-end software engineer with experience in REST APIs, automation, and network infrastructure — from blockchain (Web3) to SaaS platforms. Comfortable across the full cycle: architecture, implementation, and cloud deployment."
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I’ve shipped impact",
+    "subtitle": "A compact timeline of roles — expand any stop for the delivery details. Role filters above narrow this list.",
+    "impactLabel": "Impact highlights",
+    "detailsOpen": "Tap to expand delivery notes",
+    "empty": "No roles match this focus. Switch the filter above back to All.",
+    "items": [
+      {
+        "id": "flex",
+        "company": "The Flex",
+        "role": "Software Engineer — Base360.ai",
+        "period": "Aug–Sep 2026",
+        "location": "Remote",
+        "type": "Mission",
+        "summary": "Automation for booking sync and guest messaging on Base360.ai, shipped onto existing AWS.",
+        "impact": [
+          "Booking automation",
+          "FastAPI APIs",
+          "Stripe · Twilio · OpenAI"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Built an automation module for booking sync and guest communication on Base360.ai.",
+          "Designed a FastAPI back-end exposing REST APIs to pricing and booking systems.",
+          "Integrated Stripe, Twilio and OpenAI to automate previously manual workflows.",
+          "Deployed with Docker and GitHub Actions on existing AWS infrastructure."
+        ]
+      },
+      {
+        "id": "taliware",
+        "company": "Taliware",
+        "role": "Web3 & Back-End Engineer",
+        "period": "Apr 2024 – Apr 2026",
+        "location": "San Diego, USA",
+        "type": "Full-time",
+        "summary": "Web3 APIs, Cordoba L2 data architecture, and a photo platform API that partners actually used.",
+        "impact": [
+          "+35% partner speed",
+          "+50% API usage",
+          "Cordoba L2"
+        ],
+        "roles": [
+          "backend",
+          "web3"
+        ],
+        "bullets": [
+          "Built a Web3 API and subscriptions framework for secure blockchain integration and token payments.",
+          "Designed database architecture for Cordoba L2 enabling real-time queries for distributed apps.",
+          "Optimized CordobaPhoto back-end API — unified four data sources, +35% partner integration speed, +50% API usage."
+        ]
+      },
+      {
+        "id": "cmh",
+        "company": "Cloud Marketing Hub",
+        "role": "Software Developer",
+        "period": "Nov 2022 – Apr 2024",
+        "location": "Tangier, Morocco",
+        "type": "Full-time",
+        "summary": "Automation and APIs across marketing teams of 20–40, with measurable throughput and reporting gains.",
+        "impact": [
+          "+60% throughput",
+          "+20% productivity",
+          "Teams of 20–40"
+        ],
+        "roles": [
+          "backend",
+          "fullstack",
+          "devops"
+        ],
+        "bullets": [
+          "Built automation in Python, Java and JavaScript across teams of 20–40 people.",
+          "Delivered front-end interfaces and secure REST APIs for marketing automation.",
+          "Improved data throughput by 60% through API and SQL optimization.",
+          "Automated reporting that lifted team productivity by ~20%."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Selected work",
+    "subtitle": "Live client products online today — open a site, or expand a card for the stack.",
+    "open": "Stack & details",
+    "close": "Hide details",
+    "stack": "Stack",
+    "visit": "Visit live",
+    "visitPortal": "Open portal",
+    "gatedNote": "Login portal",
+    "empty": "No projects match this focus. Switch the filter above back to All.",
+    "items": [
+      {
+        "id": "medsupport",
+        "title": "MedSupport Travel",
+        "client": "Client product",
+        "summary": "Medical travel assistance platform — Next.js marketing site and ops portal, Postgres for case data, Redis for cache, coordinating providers across 50+ countries.",
+        "highlight": "Next.js app + PostgreSQL + Redis cache in production.",
+        "image": "/projects/medsupport.jpg",
+        "url": "https://medsupporttravel.com",
+        "stack": [
+          "Next.js",
+          "PostgreSQL",
+          "Redis",
+          "TypeScript"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "driveme",
+        "title": "DriveMe",
+        "client": "Client product",
+        "summary": "Private chauffeur platform for Belgium — client website, Next.js admin dashboard, React Native driver apps (iOS & Android), and a FastAPI backend on MongoDB.",
+        "highlight": "Full product surface: web + admin + mobile drivers + FastAPI API.",
+        "image": "/projects/driveme.jpg",
+        "url": "https://driveme.be",
+        "stack": [
+          "Next.js",
+          "React Native",
+          "FastAPI",
+          "MongoDB"
+        ],
+        "roles": [
+          "fullstack",
+          "backend",
+          "devops"
+        ]
+      },
+      {
+        "id": "mates",
+        "title": "Mate’s Booking",
+        "client": "Client product",
+        "summary": "Reservation and guest-management portal for Mate’s Restaurant — Next.js app with MongoDB for bookings and staff auth.",
+        "highlight": "Next.js + MongoDB production portal for restaurant ops.",
+        "image": "/projects/mates.jpg",
+        "url": "https://matesbooking.com",
+        "gated": true,
+        "stack": [
+          "Next.js",
+          "MongoDB",
+          "Auth",
+          "Reservations"
+        ],
+        "roles": [
+          "fullstack",
+          "backend"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools I use to deliver",
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "tools": "Tools & cloud",
+    "spoken": "Spoken languages",
+    "spokenItems": [
+      "English — B2",
+      "French — B1",
+      "Arabic — Native"
+    ]
+  },
+  "education": {
+    "eyebrow": "Education & certs",
+    "title": "Foundations",
+    "subtitle": "Engineering school + technician track, topped with Coursera and Azure labs that map to how I ship — responsive UI, Unix tooling, design patterns, and cloud networking.",
+    "schoolsTitle": "Schools",
+    "certsTitle": "Certifications",
+    "focusLabel": "Focus areas",
+    "skillsLabel": "Skills practiced",
+    "stats": {
+      "schools": "Schools",
+      "certs": "Certifications",
+      "years": "Learning since"
+    },
+    "items": [
+      {
+        "id": "emsi",
+        "school": "EMSI Tangier",
+        "degree": "Engineering degree · Software & Network Engineering (IIR)",
+        "period": "2023–2026",
+        "location": "Tangier, Morocco",
+        "status": "Graduating June 2026",
+        "summary": "State-recognized private engineering school (founded 1986). The Ingénierie Informatique & Réseaux track covers full-stack software, cloud & systems, TCP/IP networking, cybersecurity, AI/data options, and project-based delivery on EMSI’s Tangier campus.",
+        "focus": [
+          "Full-stack & DevOps",
+          "Cloud & Unix systems",
+          "Networks & security",
+          "Project delivery"
+        ]
+      },
+      {
+        "id": "ista",
+        "school": "ISTA Taza · OFPPT",
+        "degree": "Specialized Technician in Computer Development",
+        "period": "2020–2022",
+        "location": "Taza, Morocco",
+        "status": "Completed",
+        "summary": "Two-year OFPPT technician program (~2040h) focused on application design, OOP modeling, databases, client/server and dynamic web apps, closing with an enterprise internship.",
+        "focus": [
+          "OOP & modeling",
+          "Databases",
+          "Web applications",
+          "Client / server"
+        ]
+      }
+    ],
+    "certs": [
+      {
+        "id": "responsive",
+        "title": "Advanced Styling with Responsive Design",
+        "issuer": "University of Michigan",
+        "platform": "Coursera",
+        "summary": "Mobile-first layouts, fluid CSS, media queries, and framework patterns so interfaces hold up across phones, tablets, and desktops.",
+        "skills": [
+          "Responsive CSS",
+          "Media queries",
+          "Bootstrap"
+        ]
+      },
+      {
+        "id": "unix",
+        "title": "The Unix Workbench",
+        "issuer": "Johns Hopkins University",
+        "platform": "Coursera",
+        "summary": "Command-line fluency, Bash scripting, and the Unix tooling mindset used daily in backend and DevOps work.",
+        "skills": [
+          "Bash",
+          "CLI",
+          "Unix tools"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Software Design and Project Management",
+        "issuer": "HKUST",
+        "platform": "Coursera",
+        "summary": "SDLC planning, architectural and design patterns, scheduling and cost estimation for engineering teams.",
+        "skills": [
+          "SDLC",
+          "Design patterns",
+          "Project planning"
+        ]
+      },
+      {
+        "id": "azure",
+        "title": "Virtual Networks in Azure",
+        "issuer": "Whizlabs",
+        "platform": "Azure lab",
+        "summary": "Hands-on Azure virtual networking — VNets, connectivity patterns, and cloud network fundamentals.",
+        "skills": [
+          "Azure VNet",
+          "Cloud networking",
+          "Hybrid connectivity"
+        ]
+      }
+    ],
+    "tabEmsi": "EMSI",
+    "tabIsta": "ISTA",
+    "tabCerts": "Certs"
+  },
+  "contact": {
+    "eyebrow": "Hire me",
+    "title": "Tell me about the mission.",
+    "body": "Full-time, part-time, freelance or a focused project — local or remote. Share the role focus and timeline.",
+    "badge": "Usually replies within 1 day",
+    "preferEmail": "Prefer email?",
+    "preferLinkedIn": "Prefer LinkedIn?",
+    "linkedin": "linkedin.com/in/mehdi-oubara",
+    "name": "Your name",
+    "email": "Work email",
+    "engagement": "Engagement type",
+    "engagementOptions": {
+      "fulltime": "Full-time",
+      "parttime": "Part-time",
+      "freelance": "Freelance",
+      "mission": "Project mission"
+    },
+    "focus": "Role focus",
+    "message": "Message",
+    "messageHint": "Role, stack, and when you need someone.",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "successTitle": "Message sent",
+    "successBody": "Thanks — I got your note on Telegram and will reply soon.",
+    "errors": {
+      "name": "Add your name.",
+      "email": "Enter a valid work email.",
+      "focus": "Pick at least one focus.",
+      "message": "Share at least 20 characters about the opportunity.",
+      "send": "Couldn’t send right now. Try again or email me directly."
+    },
+    "openForm": "Write a message",
+    "formCardTitle": "Prefer a short brief?",
+    "formCardHint": "Open the form — engagement, focuses, and your note.",
+    "dialogTitle": "Send a message",
+    "dialogDescription": "Share the role, stack, and timing. It reaches me instantly on Telegram.",
+    "emailCta": "Email me",
+    "linkedinCta": "Open LinkedIn",
+    "focusHint": "Pick one or more — or type your own.",
+    "focusCustom": "Custom focus",
+    "focusCustomPlaceholder": "e.g. Mobile, AI, Security…",
+    "focusAdd": "Add focus"
+  },
+  "footer": {
+    "tagline": "Back-end · Web3 · Full stack · DevOps",
+    "note": "Built with Next.js and 1st-Pouf."
+  },
+  "empty": {
+    "filter": "Nothing matches this focus yet — try another filter."
+  },
+  "cv": {
+    "eyebrow": "Resume",
+    "title": "Curriculum Vitae",
+    "subtitle": "Open the English or French CV in a viewer, or download the PDF.",
+    "version": "CV language",
+    "english": "English",
+    "french": "French",
+    "download": "Download PDF",
+    "iframeTitle": "Mehdi Oubara CV ({lang})",
+    "view": "View CV",
+    "cardTitle": "Ready to share with recruiters",
+    "cardHint": "Pick a language, then open the interactive viewer.",
+    "dialogTitle": "CV — {lang}",
+    "dialogDescription": "Zoom and flip pages inside the viewer. Download stays one click away.",
+    "loading": "Opening the CV…"
+  }
+}
